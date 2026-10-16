@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap');
+
+:root {
+  --bg-dark: #f6f9fc;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f8fbff;
+  --border-color: #dce7f0;
+  --border-focus: #238bd1;
+  
+  --text-primary: #26384e;
+  --text-secondary: #68788e;
+  --text-muted: #8492a4;
+
+  --accent-primary: #238bd1;
+  --accent-gradient: linear-gradient(135deg, #238bd1 0%, #147dc1 100%);
+  --accent-success: #10b981;
+  --accent-warning: #f59e0b;
+  --accent-danger: #ef4444;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+
+  --shadow-glow: 0 0 25px rgba(59, 130, 246, 0.15);
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  line-height: 1.5;
+  background-image: radial-gradient(at 50% -20%, rgba(88, 187, 243, .14) 0px, transparent 47%);
+}
+
+input, button, select, textarea {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}

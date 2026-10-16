@@ -1,0 +1,33 @@
+{
+  "name": "urlume-backend",
+  "version": "2.0.0",
+  "description": "URLume link management and analytics API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "worker": "node jobs/worker.js",
+    "test": "jest --detectOpenHandles --forceExit"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bullmq": "^5.7.14",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "geoip-lite": "^1.4.10",
+    "ioredis": "^5.4.1",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.12.0",
+    "prom-client": "^15.1.2",
+    "rate-limiter-flexible": "^11.2.0",
+    "ua-parser-js": "^2.0.10",
+    "winston": "^3.13.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
