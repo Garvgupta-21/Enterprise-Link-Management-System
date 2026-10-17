@@ -56,7 +56,7 @@ Useful local endpoints:
 
 | Service | Address |
 | --- | --- |
-| URLume app | `http://localhost` |
+| Link Management app | `http://localhost` |
 | API health check | `http://localhost:5000/health` |
 | PostgreSQL | `localhost:5432` |
 | Redis | `localhost:6379` |
@@ -110,7 +110,7 @@ The frontend development server is available at `http://localhost:5173`.
 
 ## Resume description
 
-> Built **URLume**, a full-stack URL management and analytics platform using React, Node.js, PostgreSQL, Redis, and Docker. Implemented JWT authentication, custom links, QR generation, CSV imports, async click processing, and engagement dashboards.
+> Built **Enterprise Link Management System**, a full-stack URL management and analytics platform using React, Node.js, PostgreSQL, Redis, and Docker. Implemented JWT authentication, custom links, QR generation, CSV imports, async click processing, and engagement dashboards.
 
 ## License
 
