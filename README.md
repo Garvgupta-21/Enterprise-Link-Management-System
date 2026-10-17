@@ -1,6 +1,6 @@
-# URLume
+# Enterprise Link Management System
 
-**URLume** is a full-stack link management platform for creating branded short URLs, tracking engagement, and managing links from one clean dashboard.
+**Enterprise Link Management System** is a full-stack link management platform for creating branded short URLs, tracking engagement, and managing links from one clean dashboard.
 
 Built as a portfolio-ready application, it combines a responsive React interface with a secure Node.js API, PostgreSQL persistence, Redis caching, and background click-event processing.
 
